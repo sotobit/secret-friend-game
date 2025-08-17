@@ -10,32 +10,39 @@
     <title>Amigo Secreto</title>
 </head>
 
-<body>
-    <main class="main-content">
-        <header class="header-banner">
-            <h1 class="main-title">Amigo Secreto</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
-        </header>
+<body class="sky-bg">
+  <main class="main-shell">
+    <section class="glass-card">
+      <header class="card-header">
+        <div class="logo-dot" aria-hidden="true"></div>
+        <h1 class="main-title">Amigo Secreto</h1>
+        <p class="subtitle">Añade nombres y sortea</p>
+      </header>
+
+      <section class="input-section">
+        <div class="input-row">
+          <input type="text" id="amigo" class="input" placeholder="Escribe un nombre">
+          <button class="btn btn-primary" onclick="agregarAmigo()">Añadir</button>
+        </div>
+
+        <ul id="listaAmigos" class="list" role="list"></ul>
+
+        <button class="btn btn-dark w-100" onclick="sortearAmigo()">Sortear amigo</button>
         
-        <section class="input-section">
-            <h2 class="section-title">Digite el nombre de sus amigos</h2>
-            <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
-                <button class="button-add" onclick="agregarAmigo()">Añadir</button>
-            </div>
-           
-            <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
-            <ul id="resultado" class="result-list" aria-live="polite"></ul>
+        <div class="input-row" style="justify-content:flex-end">
+          <button class="btn eliminar" onclick="reiniciarJuego()">Reiniciar</button>
+          <button id="toggle-list" class="btn ghost" aria-controls="listaAmigos" aria-expanded="true">Ocultar lista</button>
+        </div>
 
-            <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
-                    Sortear amigo
-                </button>
-            </div>
-        </section>
-    </main>
+        <ul id="resultado" class="result"></ul>
+      </section>
+    </section>
+            
+    <!-- Toasts - Mensajes -->
+    <div id="toast-root" class="toast-root" aria-live="polite" aria-atomic="true"></div>
 
-    <script src="app.js" defer></script>
+  </main>
+  <script src="app.js" defer></script>
 </body>
+
 </html>
