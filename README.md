@@ -2,7 +2,7 @@
 
 <p align="center"><strong>Challenge de Lógica de Programación - Oracle Next Education & Alura Latam.</strong> </p>
 
-<p align="center"> <img src="assets/oracle-alura.png" width="300" alt="Oracle Alura"/> </p>
+<p align="center"> <img src="assets/oracle-alura.png" width="150" alt="Oracle Alura"/> </p>
 
 <p align="center">
   <span style="font-size:23px;"><strong>📦 Desafío completado 📅 17 de agosto de 2025</strong></span>
@@ -16,8 +16,6 @@
 
 ---
 
-<br>
-
 <p align="center">
   <span style="font-size:20px;"> 📍 <strong>Habilidades adquiridas 📍 </strong></span>
 </p>
@@ -26,7 +24,7 @@
   <b>
     <span style="display:inline-block;width: 260px;">🔸 Manipulación de DOM</span>
     <span style="display:inline-block;width: 260px;">🔸 Manipulación de Arrays</span>
-    <span style="display:inline-block;width: 260px;">🔸 </span><br>
+    <span style="display:inline-block;width: 260px;">🔸 Todos</span><br>
     <span style="display:inline-block;width: 260px;">🔹 Validación de formularios</span>
     <span style="display:inline-block;width: 260px;">🔹 Sorteos aleatorios</span>
     <span style="display:inline-block;width: 260px;">🔹 Gestión de eventos</span><br>
@@ -35,7 +33,7 @@
 
 ---
 
-## 📝 Descripción:
+## 📝 Descripción
 
 Este proyecto es una divertida aplicación web 💻 desarrollada para organizar el clásico juego del "Amigo Secreto". Con esta herramienta, podrás ingresar una lista de participantes 📝 y realizar un sorteo aleatorio 🎲 para que cada persona descubra a quién le hará un regalo. 🎉
 
@@ -44,17 +42,26 @@ Este proyecto es una divertida aplicación web 💻 desarrollada para organizar 
 ## ✨ Características principales
 
 **➕ Agregar Participantes**: Añade nombres a la lista del sorteo de forma sencilla.
+<br>
 **🎲 Sorteo Automático**: Con un solo clic, el sistema mezcla los nombres y asigna un amigo secreto a cada participante.
+<br>
 **👀 Visualización de Resultados**: Muestra claramente la lista de participantes y las parejas resultantes del sorteo.
+<br>
 **✨ Interfaz Intuitiva**: Diseño limpio y fácil de usar para una experiencia de usuario fluida.
 
 ---
 
-## 🌐 Demo
+## 📷 Foto de demostración
+
+<p align="center"> <img src="assets/preview.png" width="1080" alt="Oracle Alura"/> </p>
+
+---
+
+## 🌐 Demostración online
 
 <p align="center">
   <span style="font-size:17px; font-weight:600; color:#f5f5f5;">
-    Podes ver mi demo Online haciendo click en el botón <em>"ver demo online"</em>
+    Ver el proyecto en la web
   </span>
 </p>
 
