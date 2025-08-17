@@ -18,6 +18,13 @@ function agregarAmigo(){
     }
 }
 
+//Function enter (keydown)
+document.getElementById('amigo').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+        agregarAmigo();
+    }
+});
+
 //Function update list in HTML
 function actualizarLista(){
     let lista = document.getElementById("listaAmigos");
@@ -44,6 +51,8 @@ function sortearAmigo(){
     }
     let amigo = amigos[Math.floor(Math.random() * amigos.length)];
     mostrarToast(`El amigo secreto es: ${amigo}`, "success");
+    amigos.splice(amigos.indexOf(amigo), 1); // Drop the friend win!
+    actualizarLista();
 }
 
 //Function show/hide list
