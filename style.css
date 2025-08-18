@@ -197,7 +197,7 @@ body{
   flex-direction: column;
   gap: 10px;
   z-index: 9999;
-  pointer-events: none; /* que no tape clics */
+  pointer-events: none; 
 }
 
 .toast{

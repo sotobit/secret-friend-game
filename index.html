@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,19 +20,23 @@
         <p class="subtitle">Añade nombres y sortea</p>
       </header>
 
+      <!-- Input - Add Friend -->
       <section class="input-section">
         <div class="input-row">
           <input type="text" id="amigo" class="input" placeholder="Escribe un nombre">
           <button class="btn btn-primary" onclick="agregarAmigo()">Añadir</button>
         </div>
 
+        <!-- List -->
         <ul id="listaAmigos" class="list" role="list"></ul>
 
+        <!-- Button Draw Friend -->
         <button class="btn btn-dark w-100" onclick="sortearAmigo()">Sortear amigo</button>
         
+        <!-- Input - Restart Game & Show/Hide List -->
         <div class="input-row" style="justify-content:flex-end">
           <button class="btn eliminar" onclick="reiniciarJuego()">Reiniciar</button>
-          <button id="toggle-list" class="btn ghost" aria-controls="listaAmigos" aria-expanded="true">Ocultar lista</button>
+          <button class="btn ghost" id="toggle-list" aria-controls="listaAmigos" aria-expanded="true">Ocultar lista</button>
         </div>
 
         <ul id="resultado" class="result"></ul>

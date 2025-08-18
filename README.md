@@ -11,10 +11,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" />
+  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css" />
 </p>
-
----
 
 <p align="center">
   <span style="font-size:20px;"> 📍 <strong>Habilidades adquiridas 📍 </strong></span>
@@ -24,10 +22,10 @@
   <b>
     <span style="display:inline-block;width: 260px;">🔸 Manipulación de DOM</span>
     <span style="display:inline-block;width: 260px;">🔸 Manipulación de Arrays</span>
-    <span style="display:inline-block;width: 260px;">🔸 Todos</span><br>
-    <span style="display:inline-block;width: 260px;">🔹 Validación de formularios</span>
-    <span style="display:inline-block;width: 260px;">🔹 Sorteos aleatorios</span>
-    <span style="display:inline-block;width: 260px;">🔹 Gestión de eventos</span><br>
+    <span style="display:inline-block;width: 260px;">🔸 Manipulación de Eventos</span><br>
+    <span style="display:inline-block;width: 260px;">🔹 Logica y Razonamiento</span>
+    <span style="display:inline-block;width: 260px;">🔹 Validación de Datos</span>
+    <span style="display:inline-block;width: 260px;">🔹 Inferfaz Minimalista</span><br>
   </b>
 </p>
 
@@ -43,9 +41,9 @@ Este proyecto es una divertida aplicación web 💻 desarrollada para organizar 
 
 **➕ Agregar Participantes**: Añade nombres a la lista del sorteo de forma sencilla.
 <br>
-**🎲 Sorteo Automático**: Con un solo clic, el sistema mezcla los nombres y asigna un amigo secreto a cada participante.
+**🎲 Sorteo Automático**: Con un solo clic, el sistema mezcla los nombres y asigna un amigo secreto.
 <br>
-**👀 Visualización de Resultados**: Muestra claramente la lista de participantes y las parejas resultantes del sorteo.
+**👀 Visualización de Resultados**: Muestra (o no) la lista de participantes.
 <br>
 **✨ Interfaz Intuitiva**: Diseño limpio y fácil de usar para una experiencia de usuario fluida.
 
@@ -60,14 +58,14 @@ Este proyecto es una divertida aplicación web 💻 desarrollada para organizar 
 ## 🌐 Demostración online
 
 <p align="center">
-  <span style="font-size:17px; font-weight:600; color:#f5f5f5;">
-    Ver el proyecto en la web
+  <span style="font-size:15px; font-weight:500; color:#f5f5f5; font-weight: bold;">
+    Ver demostración online
   </span>
 </p>
 
 <p align="center">
   <a href="https://alanfebrerogutierrez.github.io/Challenge-Amigo-Secreto/" target="_blank">
-    <img src="https://img.shields.io/badge/Ver%20demo%20online-ff67cf?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Ver demo online">
+    <img src="https://img.shields.io/badge/Link-ff67cf?style=for-the-badge&logo=google&logoColor=white" alt="Enlace">
   </a>
 </p>
 
@@ -94,7 +92,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 ## 👤 Autor
 
 <p align="center">
-  <span style="font-size:15px; font-weight:500; color:#f5f5f5;">
+  <span style="font-size:15px; font-weight:500; color:#f5f5f5; font-weight: bold;">
    Johan Sebastian Soto Ramirez
   </span>
 </p>
@@ -104,3 +102,5 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
     <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff" alt="LinkedIn">
   </a>
 </p>
+
+---
