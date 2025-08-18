@@ -58,13 +58,13 @@ Este proyecto es una divertida aplicación web 💻 desarrollada para organizar 
 ## 🌐 Demostración online
 
 <p align="center">
-  <span style="font-size:15px; font-weight:500; color:#f5f5f5; font-weight: bold;">
+  <b><span style="font-size:15px; font-weight:500; color:#f5f5f5; font-weight: bold;">
     Ver demostración online
-  </span>
+  </span></b>
 </p>
 
 <p align="center">
-  <a href="https://alanfebrerogutierrez.github.io/Challenge-Amigo-Secreto/" target="_blank">
+  <a href="https://sotobit.github.io/secret-friend-game/" target="_blank">
     <img src="https://img.shields.io/badge/Link-ff67cf?style=for-the-badge&logo=google&logoColor=white" alt="Enlace">
   </a>
 </p>
@@ -92,9 +92,9 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 ## 👤 Autor
 
 <p align="center">
-  <span style="font-size:15px; font-weight:500; color:#f5f5f5; font-weight: bold;">
+  <b><span style="font-size:15px; font-weight:500; color:#f5f5f5;">
    Johan Sebastian Soto Ramirez
-  </span>
+  </span></b>
 </p>
 
 <p align="center">
